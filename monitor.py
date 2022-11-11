@@ -31,7 +31,7 @@ def commands_per_distro(distro): # disk_space, check_for_updates, services_list
 
 
 #Send email part
-server_maintainers = ['robert@ekholmgroup.fi'] # Could also be read from a file
+server_maintainers = ['your@emailaddress.com'] # Could also be read from a file
 
 def send_mail(warning, problem):
     msg = EmailMessage()
