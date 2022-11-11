@@ -37,7 +37,7 @@ def send_mail(warning, problem):
     msg = EmailMessage()
     msg.set_content(f"Please check, {problem} \n {warning} ")
     msg["Subject"] = "Errors that require your attention" #Could be more specific
-    msg["From"] = 'Robert'
+    msg["From"] = 'Bobby'
     msg["To"] = server_maintainers
 
 
